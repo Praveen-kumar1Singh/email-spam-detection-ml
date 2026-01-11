@@ -12,7 +12,7 @@ import pandas as pd
 import pickle
 import numpy as np
 
-file = "C:/Users/SREEKAR/OneDrive/Desktop/college/5th SEMESTER/UE20CS302 - Machine Intelligence/mi project/code/aand shaand/spam.csv"
+file = ""D:\ALML_PROJECTS\email-spam-detection\Project\Datasets\spam.csv""
 with open(file, 'rb') as rawdata:
     result = chardet.detect(rawdata.read(100000))
 result
@@ -154,6 +154,7 @@ app.run()
 # run the file
 # if __name__=="__main__":
     
+
 
 
 
